@@ -1,5 +1,17 @@
 {
   "atom-workspace": {
-    "ctrl-alt-a": "my-plugin:convert"
+    "ctrl-alt-c": "my-plugin:CamelCase"
+  },
+  "atom-workspace": {
+    "ctrl-alt-s": "my-plugin:SnakeCase"
+  },
+  "atom-workspace": {
+    "ctrl-alt-k": "my-plugin:KebabCase"
+  },
+  "atom-workspace": {
+    "ctrl-alt-p": "my-plugin:PascalCase"
+  },
+  "atom-workspace": {
+    "ctrl-alt-u": "my-plugin:UpperCase"
   }
 }

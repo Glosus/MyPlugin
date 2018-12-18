@@ -3,17 +3,59 @@
     "atom-text-editor": [
       {
         "label": "Case Types",
-        "command": "my-plugin:convert"
+        "submenu": [
+          {
+            "label": "camelCase",
+            "command": "my-plugin:CamelCase"
+          },
+          {
+            "label": "snake_case",
+            "command": "my-plugin:SnakeCase"
+          },
+          {
+            "label": "kebab-case",
+            "command": "my-plugin:KebabCase"
+          },
+          {
+            "label": "PascalCase",
+            "command": "my-plugin:PascalCase"
+          },
+          {
+            "label": "UPPER_CASE",
+            "command": "my-plugin:UpperCase"
+          }
+        ]
       }
     ]
   },
   "menu": [
     {
-      "label": "Case Types",
+      "label": "Packages",
       "submenu": [
         {
           "label": "Case Types",
-          "command": "my-plugin:convert"
+          "submenu": [
+            {
+              "label": "camelCase",
+              "command": "my-plugin:CamelCase"
+            },
+            {
+              "label": "snake_case",
+              "command": "my-plugin:SnakeCase"
+            },
+            {
+              "label": "kebab-case",
+              "command": "my-plugin:KebabCase"
+            },
+            {
+              "label": "PascalCase",
+              "command": "my-plugin:PascalCase"
+            },
+            {
+              "label": "UPPER_CASE",
+              "command": "my-plugin:UpperCase"
+            }
+          ]
         }
       ]
     }
