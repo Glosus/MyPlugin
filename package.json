@@ -6,9 +6,13 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "my-plugin:convert",
-    "atom-workspace": "my-plugin:ff1",
-    "atom-workspace": "my-plugin:ff2"
+    "atom-workspace": [    
+      "my-plugin:CamelCase",
+      "my-plugin:SnakeCase",
+      "my-plugin:KebabCase",
+      "my-plugin:PascalCase",
+      "my-plugin:UpperCase"
+    ]
   },
   "repository": "https://github.com/Glosus/MyPlugin",
   "license": "MIT",

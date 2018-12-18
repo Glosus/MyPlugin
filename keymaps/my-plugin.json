@@ -1,17 +1,9 @@
 {
   "atom-workspace": {
-    "ctrl-alt-c": "my-plugin:CamelCase"
-  },
-  "atom-workspace": {
-    "ctrl-alt-s": "my-plugin:SnakeCase"
-  },
-  "atom-workspace": {
-    "ctrl-alt-k": "my-plugin:KebabCase"
-  },
-  "atom-workspace": {
-    "ctrl-alt-p": "my-plugin:PascalCase"
-  },
-  "atom-workspace": {
+    "ctrl-alt-c": "my-plugin:CamelCase",
+    "ctrl-alt-s": "my-plugin:SnakeCase",
+    "ctrl-alt-k": "my-plugin:KebabCase",
+    "ctrl-alt-p": "my-plugin:PascalCase",
     "ctrl-alt-u": "my-plugin:UpperCase"
   }
 }
