@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-z": "my-plugin:convert"
+    "ctrl-alt-a": "my-plugin:convert"
   }
 }
